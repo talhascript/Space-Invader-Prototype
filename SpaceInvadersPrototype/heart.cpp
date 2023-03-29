@@ -45,7 +45,7 @@ void Heart :: die(){
 
 
 
-bool Heart ::CrossesLine(int yLength)// this function takes the length of the line as a parameter
+bool Heart ::CrossesLine(int yLength)// this function takes the length of the line as a parameter // change
 {
 
     if (!start || oneHit == 1) // !start=true, so we can enter in the next if statement
